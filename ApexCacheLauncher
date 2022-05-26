@@ -20,6 +20,7 @@ then
     echo "Cache file does not exist. Adding..."
     mv "$SCRIPT_DIR"/r5apex.new.dxvk-cache "$SCRIPT_DIR"/r5apex.dxvk-cache ## Rename "Add" cache file.
     notify-send "Installed Apex Legends DXVK State Cache" "State Cache was not found, installed from GitHub."
+    echo "DXVK State Cache installed to "$SCRIPT_DIR"/r5apex.dxvk-cache."
 else
     echo "Cache file found. Merging..."
     mv "$SCRIPT_DIR"/r5apex.dxvk-cache "$SCRIPT_DIR"/r5apex.old.dxvk-cache ## Rename Old Cache File
