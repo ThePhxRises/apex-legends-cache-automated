@@ -10,7 +10,7 @@ Simple Apex Legends Cache Downloader / Launcher Script
 
  **3.** Move the ApexCacheLauncher file into the `/steamapps/shadercache/1172470/DXVK_state_cache/` folder in whatever SteamLibrary folder you have Apex Legends installed to.
 
- **4.** Choose how you want to launch the script. You may make a desktop file for it, add it to your startup commands or as a systemd service, or add it to your Steam launch options for Apex Legends (recommended). To add the script to you launch options, simply add `<PATH_TO_YOUR_STEAM_LIBRARY>/steamapps/shadercache/1172470/DXVK_state_cache/ApexCacheLauncher;` to the beginning of your prexisting launch options, or use `<PATH_TO_YOUR_STEAM_LIBRARY>/steamapps/shadercache/1172470/DXVK_state_cache/ApexCacheLauncher; %command%` if you have no launch options for Apex Legend set. Make sure you replace `<PATH_TO_YOUR_STEAM_LIBRARY>` with the correct directory.
+ **4.** Choose how you want to launch the script. You may make a desktop file for it, add it to your startup commands or as a systemd service, or add it to your Steam launch options for Apex Legends (recommended). To add the script to your launch options, simply add `<PATH_TO_YOUR_STEAM_LIBRARY>/steamapps/shadercache/1172470/DXVK_state_cache/ApexCacheLauncher;` to the beginning of your prexisting launch options, or use `<PATH_TO_YOUR_STEAM_LIBRARY>/steamapps/shadercache/1172470/DXVK_state_cache/ApexCacheLauncher; %command%` if you have no launch options for Apex Legend set. Make sure you replace `<PATH_TO_YOUR_STEAM_LIBRARY>` with the correct directory.
  
 Sources
 ---
